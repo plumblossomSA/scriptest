@@ -17,4 +17,4 @@
 {"name" : "임창현", "birth" : "2월", "address" : "충북"}, 
 {"name" : "황영호", "birth" : "3월", "address" : "부산"}, 
 {"name" : "강백수", "birth" : "4월", "address" : "대전"} ], 
-"memberCount" : 16, "courseName" : "자바 시큐어 코딩 개발자 과정" }
+"memberCount" : 16, "courseName" : "자바 개발자 과정" }
