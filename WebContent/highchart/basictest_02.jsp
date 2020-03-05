@@ -11,6 +11,8 @@
 <title>하이차트 라인 기본2</title>
 </head>
 
+
+
 <body>
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 </body>

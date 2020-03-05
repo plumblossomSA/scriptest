@@ -8,7 +8,7 @@
 <script type="text/javascript" src="../js/highcharts.js" ></script>
 <script type="text/javascript" src="../js/exporting.js" ></script>
 <script type="text/javascript" src="../js/grid-axis.js" ></script>
-<title>하이차트 라인 기본2</title>
+<title>하이차트 라인 기본1</title>
 </head>
 <style>
 .chart {

@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-{ "memberList" : [ {"name" : "김하늘", "birth" : "1월", "address" : "충북"}, 
+{ "memberList" : [ 
+{"name" : "김하늘", "birth" : "1월", "address" : "충북"}, 
 {"name" : "최형택", "birth" : "2월", "address" : "대전"}, 
 {"name" : "김대환", "birth" : "3월", "address" : "대전"}, 
 {"name" : "김명화", "birth" : "4월", "address" : "전남"}, 
