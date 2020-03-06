@@ -97,9 +97,9 @@
 		
 		objlist = [list1,list2];
 		
-		//console.log(list1);
-		//console.log(objlist[0]);
-		//console.log(objlist[1]);
+		console.log(objlist);
+		console.log(objlist[0]);
+		console.log(objlist[1]);
 		
 		showGraph(objlist);
 
