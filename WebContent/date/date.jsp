@@ -103,12 +103,36 @@ console.log(tdate3); //Thu Jun 10 2017 07:00:00 GMT+0900 (대한민국 표준시
 console.log(tdate4); //Thu Jun 11 2017 07:00:00 GMT+0900 (대한민국 표준시)
 
 
-var timestamp5 = 62820000;
-console.log("");
-var tdate5 = new Date(timestamp5);
-console.log(timestamp5);
+
+var timeUnformatted = 24.00;
+
+function toTimestamp(timeUnformatted) {
+	  debugger;
+	  timeUnformatted = timeUnformatted < 10 ? ("0" + timeUnformatted) : timeUnformatted.toString();
+	  var timeFormatted = Date.parse("1-1-1 " + timeUnformatted.replace(".", ":") + ":00") - Date.parse("1-1-1 00:00:00");
+	  return timeFormatted;
+}
+
+var timeUnformatted = 24.00;
+
+console.log(toTimestamp(timeUnformatted));
 
 
+console.log("오늘날짜 구하기");
+var todate = new Date();
+var year = todate.getFullYear();
+var month = new String(todate.getMonth()+1);
+var day = new String(todate.getDate());
+
+//한자리수일 경우 0을 채워준다
+if(month.length==1){
+	month = "0" + month;
+}
+if(day.length == 1){
+	day="0" + day;
+}
+
+console.log(year+"-"+month+"-"+day);
 
 
 </script>

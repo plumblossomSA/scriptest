@@ -42,6 +42,8 @@ function showGraph_01(){
 		{x: 1496959200000, y: 62700000, label: "17:25"},
 		{x: 1497045600000, y: 62820000, label: "17:27"}];
 	
+	console.log(test1);
+	
 	var test2 = [{x:Date.parse("2019-09-18"), y:Date.parse("19:14:36"), label:"19:14:36"},
 	  	         {x:Date.parse("2019-09-19"), y:Date.parse("13:14:36"), label:"13:14:36"},
 		
